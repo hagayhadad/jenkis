@@ -1,0 +1,12 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                git 'https://github.com/hagayhadad/jenkis.git'
+                sh 'pyhton L3.py'
+            }
+        }
+    }
+}
