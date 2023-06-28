@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                git 'https://github.com/hagayhadad/jenkis.git'
-                sh 'pyhton L3.py'
+                sh 'pyhton3 L3.py'
             }
         }
     }
